@@ -39,6 +39,10 @@ module.exports = {
       {
         title: 'Wepy',
         children: [['/page/Wepy/wepy', 'wepy']]
+      },
+      {
+        title: '请求',
+        children: [['/page/Request/axios', 'axios']]
       }
     ],
     // 配置侧边栏标题显示层数
