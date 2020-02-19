@@ -38,11 +38,18 @@ module.exports = {
       },
       {
         title: 'Wepy',
-        children: [['/page/Wepy/wepy', 'wepy']]
+        children: [
+          ['/page/Wepy/基本使用', '基本使用'],
+          ['/page/Wepy/page相关方法', 'page相关方法'],
+          ['/page/Wepy/生命周期', '生命周期']
+        ]
       },
       {
         title: '请求',
-        children: [['/page/Request/axios', 'axios']]
+        children: [
+          ['/page/Request/axios', 'axios'],
+          ['/page/Request/wepy', 'wepy']
+        ]
       }
     ],
     // 配置侧边栏标题显示层数
