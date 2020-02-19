@@ -17,6 +17,10 @@ module.exports = {
         children: [['/page/Demo/demo', 'demo']]
       },
       {
+        title: 'Electron',
+        children: [['/page/Electron/electron', 'Electron']]
+      },
+      {
         title: 'Css',
         children: [['/page/Css/css', 'css']]
       },
@@ -41,7 +45,10 @@ module.exports = {
         children: [
           ['/page/Wepy/基本使用', '基本使用'],
           ['/page/Wepy/page相关方法', 'page相关方法'],
-          ['/page/Wepy/生命周期', '生命周期']
+          ['/page/Wepy/生命周期', '生命周期'],
+          ['/page/Wepy/小程序配置-全局', '小程序配置-全局'],
+          ['/page/Wepy/小程序配置-页面', '小程序配置-页面'],
+          ['/page/Wepy/sitemap配置', 'sitemap配置']
         ]
       },
       {
