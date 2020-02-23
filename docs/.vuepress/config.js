@@ -57,6 +57,10 @@ module.exports = {
           ['/page/Request/axios', 'axios'],
           ['/page/Request/wepy', 'wepy']
         ]
+      },
+      {
+        tltle:"压缩相关",
+        children: [['/page/Mac压缩命令/命令', '命令']]
       }
     ],
     // 配置侧边栏标题显示层数
