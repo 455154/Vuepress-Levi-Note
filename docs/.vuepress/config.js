@@ -11,9 +11,14 @@ module.exports = {
       ['/page/Sass/sass', 'Sass'],
       ['/page/Mock/Mockjs', 'Mock'],
       ['/page/Maczip/mac-zip', 'Mac压缩命令'],
+      // ['/page/Lodashlodash', 'Lodash'],
       {
         title: "Electron",
         children: [["/page/Electron/electron", "Electron"]]
+      },
+      {
+        title: "Lodash",
+        children: [["/page/Lodash/lodash", "lodash"]]
       },
       {
         title: "Css",
