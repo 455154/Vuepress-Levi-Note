@@ -8,9 +8,9 @@ module.exports = {
     // sidebar: ['/', '/home1', ['/home2', 'home2自定义标题'], '/home3'],
     // 侧边栏 分组
     sidebar: [
-      ['/page/Sass/sass', 'Sass'],
-      ['/page/Mock/Mockjs', 'Mock'],
-      ['/page/Maczip/mac-zip', 'Mac压缩命令'],
+      ["/page/Sass/sass", "Sass"],
+      ["/page/Mock/Mockjs", "Mock"],
+      ["/page/Maczip/mac-zip", "Mac压缩命令"],
       // ['/page/Lodashlodash', 'Lodash'],
       {
         title: "Electron",
@@ -58,6 +58,7 @@ module.exports = {
           ["/page/Request/wepy", "wepy"]
         ]
       },
+      ["/page/Webpack/webpack", "Webpack"]
     ],
     // 配置侧边栏标题显示层数
     sidebarDepth: 2, // 0 禁用 1 只显示h2标题 2 可设置的最大值 同时提取h2 h3标题
