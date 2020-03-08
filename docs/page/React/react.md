@@ -761,6 +761,7 @@ import User from './User/usercon'
 </div>）
 ```
 - Api
+
 ```js
 // Route其他渲染方式
     // 与Component想斥 如果有Component 则不渲染render
@@ -774,7 +775,7 @@ import User from './User/usercon'
 <Link to={{
     pathname:'/user/active',
     state:{
-        id:1
+        
     }
 }} />
 
@@ -791,6 +792,7 @@ import User from './User/usercon'
 // 页面内的组件没有对应的routeProps 使用之后就挂载到了props上
 import {withRouter} from 'react-router-dom'
 export default withRouter(BackHome)
+
 ```
 
 ## React全家桶 
